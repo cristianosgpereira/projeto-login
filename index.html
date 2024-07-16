@@ -19,7 +19,15 @@
                 <p>Seja Bem-Vindo(a) novemente. Faça login para acessar sua conta e poder
                     fazer as configurações no seu ambiente.
                 </p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+                    <p>
+                        <label for="iemail">Email</label>
+                        <input type="email" name="email" id="iemail" size="50" required autocomplete="email" placeholder="Nome de Email">
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
 
                 </form>
             </div>
