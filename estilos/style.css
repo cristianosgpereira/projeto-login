@@ -49,8 +49,7 @@ section#login > div#imagem {
     background-size: cover;
     height: 200px;
     background-size: cover;
-    background-position: left bottom;
-        
+    background-position: left bottom;       
 
 }
 
@@ -66,7 +65,10 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
+    text-align: center;
     font-size: 0.8em;
+    font-weight: bold;
+    
 }
 
 div.campo > input#ilogin {
