@@ -73,16 +73,17 @@ div.campo > input#ilogin {
     color: rgb(0, 0, 0);
     cursor: pointer;
     
+}    
 
-form > div.campo {
+    form > div.campo {
 
-    background-color: #5f2c82;
-    width: 100%;
-    display: block;
-    height: 40px;
-    border-radius: 5px;
-    margin: 5px 0px;
-}
+        background-color: #5f2c82;
+        width: 100%;
+        display: block;
+        height: 40px;
+        border-radius: 5px;
+        margin: 5px 0px;
+    }
 
 div.campo > label {
     display: none;
