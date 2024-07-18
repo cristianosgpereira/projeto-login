@@ -16,7 +16,9 @@ grandes telas: acima de 1200px
     }
 
     section#login {
-        width: 80vw;
+        width: 55vw;
+        height: 80vh;
+       
         
     }
 
