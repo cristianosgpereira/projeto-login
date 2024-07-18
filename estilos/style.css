@@ -41,6 +41,7 @@ section#login {
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    
 }
 
 section#login > div#imagem {
@@ -50,12 +51,15 @@ section#login > div#imagem {
     height: 200px;
     background-size: cover;
     background-position: left bottom;       
+    
 
 }
 
 section#login > div#formulario {
     display: block;
     padding: 10px;
+    
+    
 }
 
 div#formulario > h1 {
@@ -69,6 +73,7 @@ div#formulario > p {
     font-size: 0.8em;
     font-weight: bold;
     
+    
 }
 
 div.campo > input#ilogin {
@@ -76,6 +81,13 @@ div.campo > input#ilogin {
     cursor: pointer;
     
 }    
+
+div.campo > input#isenha {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}    
+
 
 form > div.campo {
 
@@ -85,10 +97,13 @@ form > div.campo {
         height: 40px;
         border-radius: 5px;
         margin: 5px 0px;
+        cursor: pointer;
     }
 
 div.campo > label {
+    
     display: none;
+    
 }
 
 form > input[type=submit] {
@@ -105,6 +120,8 @@ form > input[type=submit] {
 
 form > input[type=submit]:hover {
     background-color: #2d6462;
+    
+    
 }
 
 form > a.botao {
@@ -120,6 +137,8 @@ form > a.botao {
     border: 1px solid #49a09d;
     border-radius: 7px;
     text-decoration: none;
+    
+    
 
 }
 
@@ -131,6 +150,8 @@ form > a.botao:hover {
 
 form > a.botao > i {
     font-size: 0.8em;
+    
+    
 
 
 }
