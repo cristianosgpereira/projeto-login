@@ -74,8 +74,8 @@ div.campo > input#ilogin {
     color: rgb(0, 0, 0);
     cursor: pointer;
     
-=======
-form > div.campo{
+
+form > div.campo {
 
     background-color: #5f2c82;
     width: 100%;
@@ -129,5 +129,6 @@ form > a.botao:hover {
 
 form > a.botao > i {
     font-size: 0.8em;
+
 
 }
