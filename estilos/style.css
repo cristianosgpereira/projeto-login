@@ -109,7 +109,6 @@ div.campo > label {
 
 div.campo > i {
     color: white;
-    /*background-color: black;*/
     font-size: 2em;
     width: 40px;
     padding: 5px;
@@ -129,7 +128,7 @@ div.campo > input {
 }
 
 div.campo > input:focus-within {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: none;
 }
 
