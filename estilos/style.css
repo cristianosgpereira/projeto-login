@@ -30,6 +30,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
@@ -92,7 +93,7 @@ div.campo > input#isenha {
 form > div.campo {
 
         background-color: #5f2c82;
-        border: 2px solid #5f2c82;
+        border: 2px solid #5f2c82 ;
         width: 100%;
         display: block;
         height: 40px;
@@ -131,6 +132,8 @@ div.campo > input:focus-within {
     background-color: rgb(255, 255, 255);
     border: none;
 }
+
+
 
 form > input[type=submit] {
     display: block;
