@@ -33,6 +33,15 @@ grandes telas: acima de 1200px
         width: 70%;
         
     }
+
+    div.campo > i {
+        color: white;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;    
+    
+    }
+
     div.campo > input {
         background-color: #94cfcd;
         font-size: 1em;
