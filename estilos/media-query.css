@@ -18,8 +18,6 @@ grandes telas: acima de 1200px
     section#login {
         width: 55vw;
         height: 80vh;
-       
-        
     }
 
     section#login > div#imagem {
@@ -31,11 +29,8 @@ grandes telas: acima de 1200px
     section#login > div#formulario {
         float: right;
         width: 70%;
-        
     }
-    
 }
-
 @media screen and (min-width: 992px) {
 
     body {
